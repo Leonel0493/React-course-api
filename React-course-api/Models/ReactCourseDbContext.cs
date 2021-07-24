@@ -15,6 +15,7 @@ namespace React_course_api.Models
         public DbSet<ImageRepository> Images { get; set; }
         public DbSet<Professors> Professors { get; set; }
         public DbSet<Courses> Courses { get; set; }
+        public DbSet<Course2> ReactCourses { get; set; }
         #endregion
     }
 }
